@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Questify</title>
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<!-- <link rel="stylesheet" href="/static/css/style.css"> -->
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<body class="hero-anime">	
+
+	<div class="navigation-wrap bg-light start-header start-style">
+		<div class="container">
+			<div class="row">
+				<div class="col-12">
+					<nav class="navbar navbar-expand-md navbar-light">
+					
+						<!-- <a class="navbar-brand" href="https://front.codes/" target="_blank">></a>	 -->
+						<h3 style="font-weight: bold;">QuesTify</h3>
+						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+							<span class="navbar-toggler-icon"></span>
+						</button>
+						
+						<div class="collapse navbar-collapse" id="navbarSupportedContent">
+							<ul class="navbar-nav ml-auto py-4 py-md-0">
+								
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">Video to Question</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">Question Generator</a>
+								</li>
+							
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">Text Summarizer</a>
+								</li>
+								<li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+									<a class="nav-link" href="#">Contact</a>
+								</li>
+							</ul>
+						</div>
+						
+					</nav>		
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="section full-height">
+		<div class="absolute-center">
+			<div class="section">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+				<h1 style="font-size: 100px;"><span>M</span><span>o</span><span>d</span><span>e</span><span>r</span><span>n</span> <br>
+				<span>C</span><span>l</span><span>a</span><span>s</span><span>s</span><span>r</span><span>o</span><span>o</span><span>m</span></h1>
+				<!-- <p>scroll for nav animation</p>	 -->
+						</div>	
+					</div>	
+				<p>Welcome to our web app, where learning meets innovation! Our platform offers a revolutionary approach to education, providing cutting-edge tools such as question generation from videos and summarization technology to enhance your learning experience. Say goodbye to traditional methods and join us on a journey of exploration and discovery. With our user-friendly interface and state-of-the-art features, knowledge is just a click away. Join the revolution and unlock your full potential with our web app.</p>	
+				</div>		
+			</div>
+			<div class="section mt-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<div id="switch">
+								<div id="circle"></div>
+							</div>
+						</div>	
+					</div>		
+				</div>			
+			</div>
+			<div class="section mt-6">
+				<div class="container">
+
+
+
+
+					<div class="row">
+						<div class="col-1">
+						</div class="center">
+						<a href="{{ url_for('home') }}" class="thej btn mt-4">Get Started</a>
+						
+					  	</div>
+						</div>	
+					</div>		
+				</div>			
+			</div>
+		</div>
+	</div>
+	<div class="my-5 py-5">
+	</div>
+  
+<!-- Link to page
+================================================== -->
+
+	<!-- <a href="https://front.codes/" class="logo" target="_blank">
+		<img src="https://assets.codepen.io/1462889/fcy.png" alt="">
+	</a> -->
+
+</body>
+<!-- partial -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>.
+<script src="{{ url_for('static', filename='assets/js/script.js') }}"></script>
+<script type="text/javascript">
+    (function(d, m){
+        var kommunicateSettings = 
+            {"appId":"24052a1c1b69823e7fc506031fe0655c1","popupWidget":true,"automaticChatOpenOnNavigation":true};
+        var s = document.createElement("script"); s.type = "text/javascript"; s.async = true;
+        s.src = "https://widget.kommunicate.io/v2/kommunicate.app";
+        var h = document.getElementsByTagName("head")[0]; h.appendChild(s);
+        window.kommunicate = m; m._globals = kommunicateSettings;
+    })(document, window.kommunicate || {});
+/* NOTE : Use web server to view HTML files as real-time update will not work if you directly open the HTML file in the browser. */
+</script>
+<!-- <script src="/static/assets/js/script.js"></script> -->
+
+</body>
+</html>

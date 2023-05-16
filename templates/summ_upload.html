@@ -1,0 +1,35 @@
+{% extends 'layout2.html' %}
+{% block body %}
+<div class="row align-items-center d-flex  justify-content-center">
+    <div class="col-12 mb-4">
+        <div class="card border-light shadow-sm components-section align-items-center d-flex  justify-content-center">
+            <div class="card-body align-items-center d-flex justify-content-center">     
+                <div class="row mb-4">
+                    <div class="col-lg-12 col-sm-16">
+                      <h3 class="h3 text-center">GENERATE QUESTIONS & ANSWERS</h3>  
+                    </div>
+                    <img src="{{ url_for('static', filename='question_undraw.png') }}" height="340px">
+                    <div class="card-body">
+                              <form method="POST" action="summ_file_generate" enctype="multipart/form-data">
+                                <div class="mb-4">
+                                    <div class="form-group">
+                                        <label class="h6" for="exampleFormControlTextarea1">Upload File</label>
+                                        <input type="file" id="myFile" name="filename">
+                                    </div>    
+
+                                    <div class="form-group">
+                                      <label class="h6" for="exampleFormControlTextarea1">Page Number</label>
+                                      <input type="number" name="pgnostart" class="form-control" placeholder="Starting Page Number" min="1" required>
+                                      <input type="number" name="pgnoend" class="form-control" placeholder="Ending Page Number" min="1" required>
+
+                                    </div> 
+
+    <input type="submit" class="btn btn-primary" value="Generate">
+  </form>
+  </div>
+</div>
+</div>
+</div>
+    </div>
+</div>
+{% endblock %}
