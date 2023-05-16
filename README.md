@@ -1,5 +1,6 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # MyQAGenerator.ai-AI-BASED-QUESTION-ANSWER-GENERATOR
 
 # YOUTUBE LINK OF THE PROJECT:
@@ -45,6 +46,10 @@ This module will help to user to download the questions & answers in different f
 ![Screenshot](https://raw.github.com/narender-rk10/MyQAGenerator.ai-AI-BASED-QUESTION-ANSWER-GENERATOR/master/SCREENSHOTS/image14.png)
 ![Screenshot](https://raw.github.com/narender-rk10/MyQAGenerator.ai-AI-BASED-QUESTION-ANSWER-GENERATOR/master/SCREENSHOTS/image15.png)
 ![Screenshot](https://raw.github.com/narender-rk10/MyQAGenerator.ai-AI-BASED-QUESTION-ANSWER-GENERATOR/master/SCREENSHOTS/image16.png)
+=======
+# questify
+Automatic Question Paper Generator
+>>>>>>> 48263f2068a37a7f1212aad8fcefa929e2547f79
 =======
 # questify
 Automatic Question Paper Generator
